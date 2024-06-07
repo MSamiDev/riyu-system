@@ -29,6 +29,7 @@ const page = () => {
       <button onClick={handleClick}>Schedule</button>
     </>
 			{/* <!-- Calendly inline widget end --> */}
+      <iframe src="https://calendar.google.com/calendar/embed?src=samishaikh6810%40gmail.com&ctz=Asia%2FKolkata" style={{border: "0", width:"80vw", height:"80vh"}}></iframe>
 		</div>
 	);
 };
