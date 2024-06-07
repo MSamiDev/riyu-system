@@ -38,8 +38,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 									fill="none"
 									stroke="currentColor"
 									strokeWidth="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								>
 									<circle cx="11" cy="11" r="8" />
 									<path d="m21 21-4.3-4.3" />
@@ -62,8 +62,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 										fill="none"
 										stroke="currentColor"
 										strokeWidth="2"
-										stroke-linecap="round"
-										stroke-linejoin="round"
+										strokeLinecap="round"
+										strokeLinejoin="round"
 									>
 										<circle cx="11" cy="11" r="8" />
 										<path d="m21 21-4.3-4.3" />
@@ -93,8 +93,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 									fill="none"
 									stroke="currentColor"
 									strokeWidth="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								>
 									<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" />
 									<path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
@@ -114,8 +114,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 									fill="none"
 									stroke="currentColor"
 									strokeWidth="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								>
 									<path d="M22 12h-4l-3 9L9 3l-3 9H2" />
 								</svg>
@@ -159,8 +159,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 												fill="none"
 												stroke="currentColor"
 												strokeWidth="2"
-												stroke-linecap="round"
-												stroke-linejoin="round"
+												strokeLinecap="round"
+												strokeLinejoin="round"
 											>
 												<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" />
 												<path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
@@ -180,8 +180,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 												fill="none"
 												stroke="currentColor"
 												strokeWidth="2"
-												stroke-linecap="round"
-												stroke-linejoin="round"
+												strokeLinecap="round"
+												strokeLinejoin="round"
 											>
 												<path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
 												<path d="M3 6h18" />
@@ -202,8 +202,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 												fill="none"
 												stroke="currentColor"
 												strokeWidth="2"
-												stroke-linecap="round"
-												stroke-linejoin="round"
+												strokeLinecap="round"
+												strokeLinejoin="round"
 											>
 												<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" />
 												<path d="M12 12v9" />
@@ -224,8 +224,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 												fill="none"
 												stroke="currentColor"
 												strokeWidth="2"
-												stroke-linecap="round"
-												stroke-linejoin="round"
+												strokeLinecap="round"
+												strokeLinejoin="round"
 											>
 												<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
 												<circle cx="9" cy="7" r="4" />
@@ -263,7 +263,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 									d="M5 1L10.6869 7.16086C10.8637 7.35239 10.8637 7.64761 10.6869 7.83914L5 14"
 									stroke="currentColor"
 									strokeWidth="2"
-									stroke-linecap="round"
+									strokeLinecap="round"
 								/>
 							</svg>
 						</li>
@@ -293,8 +293,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 							fill="none"
 							stroke="currentColor"
 							strokeWidth="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
+							strokeLinecap="round"
+							strokeLinejoin="round"
 						>
 							<path d="M17 8L21 12L17 16M3 12H13M3 6H13M3 18H13" />
 						</svg>
@@ -350,8 +350,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 									fill="none"
 									stroke="currentColor"
 									strokeWidth="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								>
 									<path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
 									<polyline points="9 22 9 12 15 12 15 22" />
@@ -373,8 +373,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 									xmlns="http://www.w3.org/2000/svg"
 									stroke="currentColor"
 									strokeWidth="1.7"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								>
 									<path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" />
 									<path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" />
@@ -396,8 +396,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 									xmlns="http://www.w3.org/2000/svg"
 									stroke="currentColor"
 									strokeWidth="1.7"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								>
 									<path d="M8.5 21H4C4 17.134 7.13401 14 11 14C11.1681 14 11.3348 14.0059 11.5 14.0176M15 7C15 9.20914 13.2091 11 11 11C8.79086 11 7 9.20914 7 7C7 4.79086 8.79086 3 11 3C13.2091 3 15 4.79086 15 7ZM12.5898 21L14.6148 20.595C14.7914 20.5597 14.8797 20.542 14.962 20.5097C15.0351 20.4811 15.1045 20.4439 15.1689 20.399C15.2414 20.3484 15.3051 20.2848 15.4324 20.1574L19.5898 16C20.1421 15.4477 20.1421 14.5523 19.5898 14C19.0376 13.4477 18.1421 13.4477 17.5898 14L13.4324 18.1574C13.3051 18.2848 13.2414 18.3484 13.1908 18.421C13.1459 18.4853 13.1088 18.5548 13.0801 18.6279C13.0478 18.7102 13.0302 18.7985 12.9948 18.975L12.5898 21Z" />
 								</svg>
@@ -419,8 +419,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 									fill="none"
 									stroke="currentColor"
 									strokeWidth="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								>
 									<rect
 										width="18"
@@ -457,8 +457,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 									fill="none"
 									stroke="currentColor"
 									strokeWidth="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								>
 									<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
 									<path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
@@ -473,7 +473,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
 			{/* <!-- Content --> */}
 			<div className="w-full lg:ps-64">
-				<div className="p-4 sm:p-6 space-y-4 sm:space-y-6 bg-red-100 min-h-screen">
+				<div className="p-4 sm:p-6 space-y-4 sm:space-y-6 min-h-screen">
 					{/* <!-- your content goes here ... --> */}
 					{children}
 				</div>
