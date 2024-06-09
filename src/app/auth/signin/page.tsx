@@ -1,9 +1,40 @@
+"use client";
 import Link from "next/link";
+import { login, signInWithGoogle } from "@/app/auth/config/auth";
+import { useState } from "react";
+import { redirect } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const signin = () => {
-    return (
-        <div>
-            <div className="mt-7 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-neutral-900 dark:border-neutral-700">
+	const router = useRouter();
+	const [email, setEmail] = useState("");
+	const [password, setPassword] = useState("");
+	const [error, setError] = useState("");
+
+	const handleSubmit = async (e: any) => {
+		e.preventDefault();
+		try {
+			await login(email, password);
+			// Redirect or show success message
+			router.push("/admin");
+		} catch (error: any) {
+			setError(error.message);
+		}
+	};
+
+	const handleGoogleSignIn = async () => {
+		try {
+			await signInWithGoogle();
+			// Redirect or show success message
+			router.push("/admin");
+		} catch (error: any) {
+			setError(error.message);
+		}
+	};
+
+	return (
+		<div>
+			<div className="mt-7 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-neutral-900 dark:border-neutral-700">
 				<div className="p-4 sm:p-7">
 					<div className="text-center">
 						<h1 className="block text-2xl font-bold text-gray-800 dark:text-white">
@@ -23,6 +54,7 @@ const signin = () => {
 					<div className="mt-5">
 						<button
 							type="button"
+							onClick={handleGoogleSignIn}
 							className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800"
 						>
 							<svg
@@ -57,7 +89,7 @@ const signin = () => {
 						</div>
 
 						{/* <!-- Form --> */}
-						<form>
+						<form onSubmit={handleSubmit}>
 							<div className="grid gap-y-4">
 								{/* <!-- Form Group --> */}
 								<div>
@@ -165,6 +197,7 @@ const signin = () => {
 										</label>
 									</div>
 								</div>
+								{error && <p>{error}</p>}
 								{/* <!-- End Checkbox --> */}
 
 								<button
@@ -179,8 +212,8 @@ const signin = () => {
 					</div>
 				</div>
 			</div>
-        </div>
-    );
-}
+		</div>
+	);
+};
 
 export default signin;
