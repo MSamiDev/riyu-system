@@ -192,7 +192,7 @@ const signup = () => {
 											htmlFor="remember-me"
 											className="text-sm dark:text-white"
 										>
-											I accept the{" "}
+											I accept the
 											<Link
 												className="text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500"
 												href="#"
